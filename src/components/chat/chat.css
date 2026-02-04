@@ -1,0 +1,66 @@
+/* FULL PAGE – NOT A CARD */
+.chatlist-page {
+  width: 100%;
+  min-height: 100vh;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.chatlist-header {
+  height: 60px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+}
+
+.my-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Chat list */
+.chatlist {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Chat item */
+.chat-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  cursor: pointer;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.chat-item:hover {
+  background: #f9f9f9;
+}
+
+.chat-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+/* Text */
+.chat-info {
+  flex: 1;
+}
+
+.chat-name {
+  font-weight: 600;
+}
+
+.chat-last {
+  font-size: 14px;
+  color: #666;
+}

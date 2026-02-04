@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* FULL SCREEN CONTAINER */
+.app-layout {
+  width: 100%;
+  min-height: 100vh;
+  background: yellow;
+}
+
+/* 🚨 REMOVE THESE IF THEY EXIST ANYWHERE 🚨 */
+/*
+max-width
+width: 360px / 420px
+margin: auto
+display: inline-block
+*/
