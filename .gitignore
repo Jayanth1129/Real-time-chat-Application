@@ -4,3 +4,8 @@ dist/
 .next/ 
 .cache/ 
 *.log 
+
+
+# Environment variables (secrets)
+.env
+backend/.env
